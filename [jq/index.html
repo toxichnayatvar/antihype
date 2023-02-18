@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="q"><span>Какая оплата за час?</span><span>Сколько у вас рабочих дней в неделю?</span><span>Сколько часов в день вы работаете?</span></div>
+    <div class="an"><input type="number" id="rh"><input type="number" id="dw"> <input type="number" id="hd"></div>
+    <button onclick="salary()">Рассчитать зп</button>
+    <p>Ваша зарпалата за месяц:</p>
+    <p id="output">0</p>
+    <script src="app.js"></script>
+</body>
+</html>
